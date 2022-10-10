@@ -1,0 +1,214 @@
+@media screen and (max-width:1100px) {
+    .we_offer_box_big_title {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width:1000px) {
+    .we_offers_list li {
+        width: 50%;
+        padding: 10px 15px;
+    }
+    .we_matches_list li {
+        width: 50%;
+        padding: 10px 15px;
+    }
+    .we_ssc_channels_list li {
+        width: 25%;
+    }
+    .we_channel {
+        width: 25%;
+    }
+    .we_livestream {
+        height: 600px;
+    }
+    .we_livestream iframe {
+        height: 600px;
+    }
+}
+
+@media screen and (max-width:800px) {
+    .we_header {
+        height: 70px;
+    }
+    .we_logo {
+        margin-left: 0;
+    }
+    .we_header_list {
+        z-index: 99999;
+        position: relative;
+    }
+    .we_header_list li {
+        font-size: 18px;
+    }
+    .we_m_menu_btn_container {
+        height: 70px;
+        width: 70px;
+    }
+    .we_livestream {
+        height: 500px;
+    }
+    .we_livestream iframe {
+        height: 500px;
+    }
+}
+
+@media screen and (max-width:700px) {
+    .we_logo {
+        flex: 1;
+        display: flex;
+        align-items: center;
+    }
+    .we_logo_link {
+        display: inline-block;
+    }
+    .we_header_list {
+        display: none;
+        position: absolute;
+        top: 70px;
+        width: 100%;
+        background-image: linear-gradient(180deg, #1f252e, #1f252e);
+        border-top: 3px solid #161a20;
+    }
+    .we_header_list li {
+        display: block;
+    }
+    .we_offer_box_big_title {
+        font-size: 30px;
+    }
+    .we_offers_list li {
+        width: 100%;
+        padding: 10px 0px;
+    }
+    .we_matches_list li {
+        width: 100%;
+        padding: 10px 0px;
+    }
+    .we_ssc_channels_list li {
+        width: 50%;
+    }
+    footer {
+        height: auto;
+    }
+    .we_footer_container {
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        height: 100%;
+    }
+    .we_footer_rights {
+        flex: auto;
+        padding-right: 0;
+        margin: 25px 0;
+    }
+    .we_footer_image {
+        height: 50px;
+        display: block;
+        margin: 0 0 25px 0;
+    }
+    .we_keyform_box,
+    .we_key_winner_box,
+    .we_key_locker_box {
+        position: relative;
+        top: auto;
+        left: auto;
+        transform: translateX(0) translateY(0);
+        text-align: center;
+        margin: 0 auto;
+        margin-top: 60px;
+    }
+    .we_keyform_title {
+        color: rgb(0 255 184);
+        font-size: 30px;
+        font-weight: 700;
+    }
+    .we_keyform_mid_title {
+        font-size: 20px;
+    }
+    .we_keyform_close,
+    .we_key_winner_close {
+        height: 50px;
+        width: 50px;
+        background-size: 25px;
+    }
+    .we_channel {
+        width: 50%;
+    }
+    .we_livestream {
+        height: 450px;
+    }
+    .we_livestream iframe {
+        height: 450px;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .we_keyform_title,
+    .we_key_winner_title,
+    .we_key_locker_title {
+        font-size: 25px;
+    }
+    .we_keyform_mid_title,
+    .we_key_winner_mid_title,
+    .we_key_locker_mid_title {
+        font-size: 17px;
+    }
+    .we_livestream {
+        height: 440px;
+    }
+    .we_livestream iframe {
+        height: 440px;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .we_keyform_title,
+    .we_key_winner_title,
+    .we_key_locker_title {
+        font-size: 18px;
+    }
+    .we_keyform_mid_title,
+    .we_key_winner_mid_title,
+    .we_key_locker_mid_title {
+        font-size: 14px;
+    }
+    .we_get_code {
+        font-size: 14px;
+    }
+    .we_footer_rights {
+        font-size: 14px;
+    }
+    .we_footer_image {
+        height: 30px;
+    }
+    .we_livestream {
+        height: 350px;
+    }
+    .we_livestream iframe {
+        height: 350px;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .we_keyform_mid_title {
+        font-size: 15px;
+    }
+    .we_get_code {
+        font-size: 15px;
+    }
+    .we_livestream {
+        height: 300px;
+    }
+    .we_livestream iframe {
+        height: 300px;
+    }
+}
+
+@media screen and (max-width:350px) {
+    .we_footer_rights {
+        font-size: 12px;
+    }
+    .we_footer_image {
+        height: 20px;
+    }
+}
